@@ -103,3 +103,41 @@ module "pet_azure" {
 }
 ```
 
+## Use the private module
+
+- clone this repo to your local machine
+```
+git clone https://github.com/munnep/tfc_private_module_azure_random_pet.git
+```
+- Go into the directory
+```
+cd tfc_private_module_azure_random_pet
+```
+- change the source location of your private registry in the file `main.tf` to your own private registry
+```
+module "pet_azure" {
+  source  = "app.terraform.io/YOUR_ORGANIZATION/pet_azure/random"
+  version = "0.0.1"
+  prefix = "patrick"
+}
+```
+- initialize terraform
+```
+terraform init
+```
+- terraform plan
+```
+terraform plan
+```
+- terraform apply
+```
+terraform apply
+```
+- Example output
+```
+Apply complete! Resources: 1 added, 0 changed, 0 destroyed.
+
+Outputs:
+
+name = "patrick-easy-mustang"
+```
