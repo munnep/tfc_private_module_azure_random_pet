@@ -22,7 +22,7 @@ Have a VCS connection to Azure from you Terraform Cloud organization. [Example h
 
 # How to
 
-## Azure DevOps
+## Azure DevOps create repository
 - Login to Azure DevOps portal
 [https://dev.azure.com/](https://dev.azure.com/)
 - create a new project    
