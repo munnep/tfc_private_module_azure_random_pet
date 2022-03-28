@@ -113,7 +113,7 @@ git clone https://github.com/munnep/tfc_private_module_azure_random_pet.git
 ```
 cd tfc_private_module_azure_random_pet
 ```
-- change the source location of your private registry in the file `main.tf` to your own private registry
+- change the source location in the file `main.tf` to your own private registry
 ```
 module "pet_azure" {
   source  = "app.terraform.io/YOUR_ORGANIZATION/pet_azure/random"
