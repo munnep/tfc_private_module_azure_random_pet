@@ -1,6 +1,6 @@
 # tfc_private_module_azure_random_pet
 
-This repository describes on how to create a repository in Azure DevOps and use this repository in Terraform Cloud Private registry as a module.
+This repository describes on how to create a repository in Azure DevOps. This repository will then be used within Terraform Cloud - Private Registry as a module. 
 
 Steps involved:
 - Create repository within Azure DevOps
